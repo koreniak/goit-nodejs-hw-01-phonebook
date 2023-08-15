@@ -1,0 +1,18 @@
+{
+  "name": "goit-nodejs-hw-01-phonebook",
+  "version": "1.0.0",
+  "description": "Homework 1 (Phonebook). Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Borys Koreniak",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
