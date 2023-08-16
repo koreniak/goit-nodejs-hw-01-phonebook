@@ -22,6 +22,11 @@ async function listContacts() {
 
 async function getContactById(contactId) {
   const data = await readFile();
+  const index = data.findIndex(contact => contact.id === contactId);
+
+  if (index === -1) {
+    return null;
+  };
 
   return data.find(contact => contact.id === contactId);
 };
