@@ -4,8 +4,8 @@
   "description": "Homework 1 (Phonebook). Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "author": "Borys Koreniak",
   "license": "ISC",
